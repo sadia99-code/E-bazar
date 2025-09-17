@@ -1,0 +1,44 @@
+.blog-section {
+    padding: 3rem 0;
+}
+
+.blog-title {
+    color: var(--brand-heading);
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.blog-post {
+    background: var(--brand-card-bg);
+    border-radius: var(--bs-border-radius-lg);
+    box-shadow: var(--bs-box-shadow-sm);
+    padding: 1.5rem;
+    color: var(--brand-secondary);
+}
+
+.blog-post h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--brand-secondary);
+}
+
+.blog-post p {
+    line-height: 1.6;
+}
+
+.blog-post a {
+    color: var(--brand-primary);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+
+.contact-section {
+    /* Padding handled by pt-96 pb-96 classes */
+}
+
+.contact-form label,
+.contact-info label {
+    display: block;
+    text-align: right;
+    margin-bottom: 8px;
+    color: #2C2D2F;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background: transparent;
+    box-shadow: none;
+    color: #2C2D2F;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-info h2,
+.contact-info h3 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #2C2D2F;
+    margin-bottom: 16px;
+}
+
+.contact-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2C2D2F;
+    margin-bottom: 8px;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    text-decoration: none;
+}

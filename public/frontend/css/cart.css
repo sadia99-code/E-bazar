@@ -1,0 +1,128 @@
+.cart-section {
+    padding: 3rem 0;
+}
+
+.cart-title {
+    color: var(--brand-heading);
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 700px;
+}
+
+.cart-item {
+    background: var(--brand-card-bg);
+    border-radius: var(--bs-border-radius-lg);
+    box-shadow: var(--bs-box-shadow-sm);
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.cart-item img {
+    width: 80px;
+    border-radius: var(--bs-border-radius);
+}
+
+.cart-item-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: var(--brand-secondary);
+}
+
+.cart-item-info strong {
+    font-weight: 700;
+}
+
+.cart-item-quantity {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cart-item-quantity button {
+    background: var(--brand-light);
+    border: none;
+    padding: 0.3rem 0.8rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: var(--bs-border-radius);
+}
+
+.cart-item-quantity span {
+    background: var(--brand-primary);
+    color: var(--bs-white);
+    padding: 0.3rem 0.8rem;
+    border-radius: var(--bs-border-radius);
+    font-weight: 700;
+}
+
+.cart-summary {
+    background: var(--brand-card-bg);
+    border-radius: var(--bs-border-radius-lg);
+    box-shadow: var(--bs-box-shadow-sm);
+    padding: 1.5rem;
+    max-width: 300px;
+    color: var(--brand-secondary);
+}
+
+.cart-summary h3 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.cart-summary p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.cart-summary .grand-total {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border-top: 1px solid var(--brand-border);
+    padding-top: 1rem;
+}
+
+.cart-summary button {
+    background: var(--brand-primary);
+    color: var(--bs-white);
+    border: none;
+    border-radius: var(--bs-border-radius);
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.cart-summary button:hover {
+    background: var(--brand-primary-dark);
+}
+
+.continue-shopping-btn {
+    background: var(--brand-primary);
+    color: var(--bs-white);
+    border: none;
+    border-radius: var(--bs-border-radius);
+    padding: 0.6rem 1.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.continue-shopping-btn:hover {
+    background: var(--brand-primary-dark);
+}
